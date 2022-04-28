@@ -1,0 +1,139 @@
+body, li, ul, main {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+       background-image: url("./images/pattern-background-desktop.svg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-color: hsl(225, 100%, 94%);
+       font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: .8rem;
+    color: rgb(110, 109, 109);
+}
+
+.main-card {
+    width: 380px;
+    height: 580px;
+    background-color: #fff;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: block;
+}
+
+#top-image {
+    width: 100%;
+    display: block;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#description {
+    width: auto;
+    display: block;
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    padding: 60px;
+
+}
+
+#plan {
+    width: 310px;
+    height: 80px;
+    background-color: hsl(225, 100%, 98%);
+    position: absolute;
+    display:flex;
+    top: 350px;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+
+#payment-button {
+    width: 310px;
+    height: 40px;
+    background-color: hsl(245, 75%, 52%);
+    position: absolute;
+    display:table;
+    top: 450px;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+
+#music-icon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#annual-plan {
+    font-size: .9rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#price {
+    
+    margin-left: 10px;
+    display: flex;
+    font-size: .9rem;
+    color: gray;
+}
+
+#change {
+    font-size: 0.76rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 80px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+#payment-button {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+#proceed {
+    color:white;
+    font-size: .8rem;
+    
+}
+
+#cancel-div {
+    width: 310px;
+    height: 40px;
+    margin-left: 35px;
+    position: absolute;
+    display:flex;
+    top: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#cancel {
+    font-size: .9rem;
+    color: rgb(129, 127, 127);
+    font-weight: 600;
+}
